@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html>
-  
-  <head>
-    <title>Zefs Guides</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="description" content="Zefs Guides are concise learning guides about machine learning and data science topics."/>
-    <meta property="og:title" content="Zefs Guides" />
-    <meta property="og:url" content="https://zefsguides.com" />
-    <meta name="og:description" content="Zefs Guides are concise learning guides about machine learning and data science topics. The first book is Zefs Guide to Deep Learning."/>
-    <meta property="og:image" content="https://zefsguides.com/images/zg_dog1d.png" />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:image" content="https://zefsguides.com/images/zg_dog1d.png" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="zefsguides.com" />
-    <meta name="twitter:creator" content="@zefsguides" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-    <link href="fontawesome/css/all.min.css" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <style>
+
+<head>
+  <title>Zefs Guides</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Zefs Guides are concise learning guides about machine learning and data science topics." />
+  <meta property="og:title" content="Zefs Guides" />
+  <meta property="og:url" content="https://zefsguides.com" />
+  <meta name="og:description"
+    content="Zefs Guides are concise learning guides about machine learning and data science topics. The first book is Zefs Guide to Deep Learning." />
+  <meta property="og:image" content="https://zefsguides.com/images/zg_dog1d.png" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:image" content="https://zefsguides.com/images/zg_dog1d.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="zefsguides.com" />
+  <meta name="twitter:creator" content="@zefsguides" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link href="fontawesome/css/all.min.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <style>
     body {
       background-color: #f0f0f0;
       /* font-family: Georgia, 'Times New Roman', Times, serif; */
     }
+
     .center {
       display: block;
       margin-left: auto;
@@ -42,408 +45,455 @@
       background-color: #2a788e;
     }
 
-    .message.is-info .message-header{
+    .message.is-info .message-header {
       background-color: #414487;
     }
 
-    .message.is-info .message-body{
+    .message.is-info .message-body {
       color: #414487;
     }
-    </style>
+  </style>
 
-  </head>
-  <body>
-    <section id="home" class="hero is-medium">
-      <div class="hero-body">
-        <div class="container">
-          <div class="columns is-vcentered">
-            <div class="column is-5 has-text-centered">
-              <figure class="image">
+</head>
+
+<body>
+  <section id="home" class="hero is-medium">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-vcentered">
+          <div class="column is-5 has-text-centered">
+            <figure class="image">
               <img src="images/zg_logo_text_web1.png" alt="Zefs Guides">
-              </figure>
-            </div>
-            <div class="column is-6">
-              <h1 class="title is-title is-size-1 has-text-weight-bold">Understand deep learning quickly!</h1>
-              <p class="subtitle is-4 is-family-primary" style="margin-top: 20px;">Zefs Guides are concise learning guides on machine learning and data science topics designed to get you up to speed fast</p>
-              <div class="dropdown">
-                <div class="dropdown-trigger">
+            </figure>
+          </div>
+          <div class="column is-6">
+            <h1 class="title is-title is-size-1 has-text-weight-bold">Understand deep learning quickly!</h1>
+            <p class="subtitle is-4 is-family-primary" style="margin-top: 20px;">Zefs Guides are concise learning guides
+              on machine learning and data science topics designed to get you up to speed fast</p>
+            <div class="dropdown">
+              <div class="dropdown-trigger">
                 <button class="button is-primary is-large" aria-haspopup="true" aria-controls="dropdown-menu">
-                    <span><strong>Get Early Access Now</strong></span>
-                    <span class="icon is-small">
+                  <span><strong>Get Early Access Now</strong></span>
+                  <span class="icon is-small">
                     <i class="fas fa-angle-down" aria-hidden="true"></i>
-                    </span>
+                  </span>
                 </button>
-                </div>
-                <div class="dropdown-menu" id="dropdown-menu" role="menu">
-                    <div class="dropdown-content">
-                    <a href="https://leanpub.com/b/zefsguide2dl" class="dropdown-item"><strong>The ebook + flashcards: $20+</strong></a>
-                    <a href="https://leanpub.com/zefsguide2dl" class="dropdown-item"><strong>Just the ebook: $12.50+</strong></a>
-                    <a href="https://leanpub.com/zg2dlflashcards/" class="dropdown-item"><strong>Just the flashcards: $10+</strong></a>
-                    </div>
+              </div>
+              <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                <div class="dropdown-content">
+                  <a href="https://leanpub.com/b/zefsguide2dl" class="dropdown-item"><strong>The ebook + flashcards:
+                      $20+</strong></a>
+                  <a href="https://leanpub.com/zefsguide2dl" class="dropdown-item"><strong>Just the ebook:
+                      $12.50+</strong></a>
+                  <a href="https://leanpub.com/zg2dlflashcards/" class="dropdown-item"><strong>Just the flashcards:
+                      $10+</strong></a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="m-5 has-background-white">
-      <div class="container">
-        <a id="zg2dl"></a>
-        <section class="section is-medium">
-          <div class="columns is-centered">
-            <div class="column is-4 has-text-centered">
-              <figure class="image is-4by5">
-                <img src="images/zgdl_cover_ea_4x5.png" alt="Zefs Guide to Deep Learning">
-              </figure>
-              <br>
-              <div class="dropdown is-centered">
-                <div class="dropdown-trigger is-centered">
-                  <button class="button is-primary is-large is-responsive" aria-haspopup="true" aria-controls="dropdown-menu">
-                      <span><strong>Get Early Access Now</strong></span>
-                      <span class="icon is-small">
-                      <i class="fas fa-angle-down" aria-hidden="true"></i>
-                      </span>
-                  </button>
-                </div>
-                <div class="dropdown-menu" id="dropdown-menu" role="menu">
-                    <div class="dropdown-content">
-                      <a href="https://leanpub.com/b/zefsguide2dl" class="dropdown-item"><strong>The ebook + flashcards: $20+</strong></a>
-                      <a href="https://leanpub.com/zefsguide2dl" class="dropdown-item"><strong>Just the ebook: $12.50+</strong></a>
-                      <a href="https://leanpub.com/zg2dlflashcards/" class="dropdown-item"><strong>Just the flashcards: $10+</strong></a>
-                    </div>
-                </div>
+  <section class="m-5 has-background-white">
+    <div class="container">
+      <a id="zg2dl"></a>
+      <section class="section is-medium">
+        <div class="columns is-centered">
+          <div class="column is-4 has-text-centered">
+            <figure class="image is-4by5">
+              <img src="images/zgdl_cover_ea_4x5.png" alt="Zefs Guide to Deep Learning">
+            </figure>
+            <br>
+            <div class="dropdown is-centered">
+              <div class="dropdown-trigger is-centered">
+                <button class="button is-primary is-large is-responsive" aria-haspopup="true"
+                  aria-controls="dropdown-menu">
+                  <span><strong>Get Early Access Now</strong></span>
+                  <span class="icon is-small">
+                    <i class="fas fa-angle-down" aria-hidden="true"></i>
+                  </span>
+                </button>
               </div>
-              <div class="buttons is-centered">
-                <a href="https://leanpub.com/zefsguide2dl/read_sample" class="button is-primary is-light">Read sample chapters</a>
+              <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                <div class="dropdown-content">
+                  <a href="https://leanpub.com/b/zefsguide2dl" class="dropdown-item"><strong>The ebook + flashcards:
+                      $20+</strong></a>
+                  <a href="https://leanpub.com/zefsguide2dl" class="dropdown-item"><strong>Just the ebook:
+                      $12.50+</strong></a>
+                  <a href="https://leanpub.com/zg2dlflashcards/" class="dropdown-item"><strong>Just the flashcards:
+                      $10+</strong></a>
+                </div>
               </div>
             </div>
-            <div class="column is-8">
-              <div class="content is-medium">
-                <h2>Zefs Guide to Deep Learning</h2>
-                <p>The first book in the Zefs Guides series will help you learn the basics of deep learning and give you an overview of how everything fits together, with a broad look at the world of deep learning today.</p>
-                <p>In around 100 pages, <strong>Zefs Guide to Deep Learning</strong> will give you a strong understanding of
-                  <ul>
-                    <li><strong>The fundamentals of machine learning</strong></li>
-                    <li><strong>The core concepts of neural networks</strong></li>
-                    <li>The key ideas behind <strong>computer vision and convolutional neural networks</strong></li>
-                    <li>The tasks and techniques involved in <strong>natural language processing</strong> and the deep learning approach to NLP</li>
-                    <li><strong>Advanced deep learning techniques and practical considerations</strong> for using deep learning in the real world</li>
-                  </ul>
-                </p>
-                <p>Zefs Guides approach these topics at a high level, but with enough detail to help you understand how deep neural networks actually work. The goal is to give you a strong conceptual grasp of these techniques. The focus is not on how to do the math behind neural networks or to teach you how to implement deep learning in code, but to help you put all of the pieces together conceptually.</p>
-              </div>
+            <div class="buttons is-centered">
+              <a href="https://leanpub.com/zefsguide2dl/read_sample" class="button is-primary is-light">Read sample
+                chapters</a>
             </div>
           </div>
-        </section>
+          <div class="column is-8">
+            <div class="content is-medium">
+              <h2>Zefs Guide to Deep Learning</h2>
+              <p>The first book in the Zefs Guides series will help you learn the basics of deep learning and give you
+                an overview of how everything fits together, with a broad look at the world of deep learning today.</p>
+              <p>In around 100 pages, <strong>Zefs Guide to Deep Learning</strong> will give you a strong understanding
+                of
+              <ul>
+                <li><strong>The fundamentals of machine learning</strong></li>
+                <li><strong>The core concepts of neural networks</strong></li>
+                <li>The key ideas behind <strong>computer vision and convolutional neural networks</strong></li>
+                <li>The tasks and techniques involved in <strong>natural language processing</strong> and the deep
+                  learning approach to NLP</li>
+                <li><strong>Advanced deep learning techniques and practical considerations</strong> for using deep
+                  learning in the real world</li>
+              </ul>
+              </p>
+              <p>Zefs Guides approach these topics at a high level, but with enough detail to help you understand how
+                deep neural networks actually work. The goal is to give you a strong conceptual grasp of these
+                techniques. The focus is not on how to do the math behind neural networks or to teach you how to
+                implement deep learning in code, but to help you put all of the pieces together conceptually.</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <a id="testimonials"></a>
-        <section class="section">
-          <div class="columns is-centered is-vcentered">
-            <div class="column">
-              <div class="card has-background-white-ter">
-                <div class="card-content">
-                  <div class="content">
-                    <p class="subtitle">"<strong>The visualizations are fantastic.</strong> This book is super helpful for those who are looking to improve their understanding of deep learning."</p>
+      <a id="testimonials"></a>
+      <section class="section">
+        <div class="columns is-centered is-vcentered">
+          <div class="column">
+            <div class="card has-background-white-ter">
+              <div class="card-content">
+                <div class="content">
+                  <p class="subtitle">"<strong>The visualizations are fantastic.</strong> This book is super helpful for
+                    those who are looking to improve their understanding of deep learning."</p>
+                </div>
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-64x64">
+                      <img class="is-rounded" src="images/Emil_Wallner.jpg" alt="Emil Wallner">
+                    </figure>
                   </div>
-                  <div class="media">
-                    <div class="media-left">
-                      <figure class="image is-64x64">
-                        <img class="is-rounded" src="images/Emil_Wallner.jpg" alt="Emil Wallner">
-                      </figure>
-                    </div>
-                    <div class="media-content">
-                      <p class="title is-4">Emil Wallner</p>
-                      <p class="subtitle is-6">Resident at Google.
+                  <div class="media-content">
+                    <p class="title is-4">Emil Wallner</p>
+                    <p class="subtitle is-6">Resident at Google.
                       </br>
                       Author of "No Degree ML"</p>
-                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="column">
-              <div class="card has-background-white-ter">
-                <div class="card-content">
-                  <div class="content">
-                    <p class="subtitle">
-                      "<strong>This is a fantastic, no-hype introduction</strong> to the practical considerations around deep learning both for practitioners who want to expand their ML knowledge, and for product and management teams who work adjacent to ML teams and want to have educated conversations around its use."
-                    </p>
+          </div>
+          <div class="column">
+            <div class="card has-background-white-ter">
+              <div class="card-content">
+                <div class="content">
+                  <p class="subtitle">
+                    "<strong>This is a fantastic, no-hype introduction</strong> to the practical considerations around
+                    deep learning both for practitioners who want to expand their ML knowledge, and for product and
+                    management teams who work adjacent to ML teams and want to have educated conversations around its
+                    use."
+                  </p>
+                </div>
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-64x64">
+                      <img class="is-rounded" src="images/Vicki_Boykis.jpg" alt="Vicki Boykis">
+                    </figure>
                   </div>
-                  <div class="media">
-                    <div class="media-left">
-                      <figure class="image is-64x64">
-                        <img class="is-rounded" src="images/Vicki_Boykis.jpg" alt="Vicki Boykis">
-                      </figure>
-                    </div>
-                    <div class="media-content">
-                      <p class="title is-4">Vicki Boykis</p>
-                      <p class="subtitle is-6">MLE at Automattic/Tumblr
+                  <div class="media-content">
+                    <p class="title is-4">Vicki Boykis</p>
+                    <p class="subtitle is-6">MLE at Automattic/Tumblr
                       </br>
                       Creator of Normcore Tech
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="columns is-centered is-vcentered">
-            <div class="column">
-              <div class="card has-background-white-ter">
-                <div class="card-content">
-                  <div class="content">
-                    <p class="subtitle">"<strong>Zefs Guide to Deep Learning succinctly covers the core concepts of machine learning.</strong> These topics are complex, but Roy's explanations and visualizations make them crystal clear, building the intuition you need to use them in practice.</p>
-                    <p class="subtitle">This is also <strong>a handy guide for managers and leaders who work around these topics</strong> and want to solidify their familiarity with them."</p>
-                  </div>
-                  <div class="media">
-                    <div class="media-left">
-                      <figure class="image is-64x64">
-                        <img class="is-rounded" src="images/James_Kirk.jpeg" alt="James Kirk">
-                      </figure>
-                    </div>
-                    <div class="media-content">
-                      <p class="title is-4">James Kirk</p>
-                      <p class="subtitle is-6">Co-founder and CTO
-                      </br>
-                      Meru Software Inc</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="column">
-              <div class="card has-background-white-ter">
-                <div class="card-content">
-                  <div class="content">
-                    <p class="subtitle">
-                      "Zefs Guide provides <strong>a clear, succinct, and direct explanation of the most important topics</strong> in ML and Deep Learning. But words only go so far – it’s the visuals which illustrate the key concepts of the field where the book and flashcards truly shine!"
                     </p>
                   </div>
-                  <div class="media">
-                    <div class="media-left">
-                      <figure class="image is-64x64">
-                        <img class="is-rounded" src="images/Nick_Singh.jpeg" alt="Nick Singh">
-                      </figure>
-                    </div>
-                    <div class="media-content">
-                      <p class="title is-4">Nick Singh</p>
-                      <p class="subtitle is-6">Author of "Ace the Data Science Interview"
-                      </p>
-                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="columns is-centered is-vcentered">
+          <div class="column">
+            <div class="card has-background-white-ter">
+              <div class="card-content">
+                <div class="content">
+                  <p class="subtitle">"<strong>Zefs Guide to Deep Learning succinctly covers the core concepts of
+                      machine learning.</strong> These topics are complex, but Roy's explanations and visualizations
+                    make them crystal clear, building the intuition you need to use them in practice.</p>
+                  <p class="subtitle">This is also <strong>a handy guide for managers and leaders who work around these
+                      topics</strong> and want to solidify their familiarity with them."</p>
+                </div>
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-64x64">
+                      <img class="is-rounded" src="images/James_Kirk.jpeg" alt="James Kirk">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">James Kirk</p>
+                    <p class="subtitle is-6">Co-founder and CTO
+                      </br>
+                      Meru Software Inc</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
-          <div class="columns is-centered is-vcentered">
-            <div class="column">
-              <div class="card has-background-white-ter">
-                <div class="card-content">
-                  <div class="content">
-                    <p class="subtitle">"Zefs Guide to Deep Learning is <strong>a no-nonsense, intuitive resource</strong> that is a must-buy for visual learners. Deep enough to be useful for a practitioner, but not mired in triviality."</p>
+          <div class="column">
+            <div class="card has-background-white-ter">
+              <div class="card-content">
+                <div class="content">
+                  <p class="subtitle">
+                    "Zefs Guide provides <strong>a clear, succinct, and direct explanation of the most important
+                      topics</strong> in ML and Deep Learning. But words only go so far – it’s the visuals which
+                    illustrate the key concepts of the field where the book and flashcards truly shine!"
+                  </p>
+                </div>
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-64x64">
+                      <img class="is-rounded" src="images/Nick_Singh.jpeg" alt="Nick Singh">
+                    </figure>
                   </div>
-                  <div class="media">
-                    <div class="media-left">
-                      <figure class="image is-64x64">
-                        <img class="is-rounded" src="images/chris_albon.jpeg" alt="Chris Albon">
-                      </figure>
-                    </div>
-                    <div class="media-content">
-                      <p class="title is-4">Chris Albon</p>
-                      <p class="subtitle is-6">Director of ML at Wikimedia
+                  <div class="media-content">
+                    <p class="title is-4">Nick Singh</p>
+                    <p class="subtitle is-6">Author of "Ace the Data Science Interview"
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="columns is-centered is-vcentered">
+          <div class="column">
+            <div class="card has-background-white-ter">
+              <div class="card-content">
+                <div class="content">
+                  <p class="subtitle">"Zefs Guide to Deep Learning is <strong>a no-nonsense, intuitive resource</strong>
+                    that is a must-buy for visual learners. Deep enough to be useful for a practitioner, but not mired
+                    in triviality."</p>
+                </div>
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-64x64">
+                      <img class="is-rounded" src="images/chris_albon.jpeg" alt="Chris Albon">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">Chris Albon</p>
+                    <p class="subtitle is-6">Director of ML at Wikimedia
                       </br>
                       Creator of Machine Learning Flashcards
                       </br>
                       Author of "Machine Learning with Python Cookbook"</p>
-                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="column">
-              <div class="card has-background-white-ter">
-                <div class="card-content">
-                  <div class="content">
-                    <p class="subtitle">
-                      "The examples and visualizations provide concrete representations of what can be difficult concepts to articulate in writing or verbally, which is <strong>great for teams who are considering whether deep learning might be a useful tool</strong> to solve specific problems ask the right questions."
-                    </p>
+          </div>
+          <div class="column">
+            <div class="card has-background-white-ter">
+              <div class="card-content">
+                <div class="content">
+                  <p class="subtitle">
+                    "The examples and visualizations provide concrete representations of what can be difficult concepts
+                    to articulate in writing or verbally, which is <strong>great for teams who are considering whether
+                      deep learning might be a useful tool</strong> to solve specific problems ask the right questions."
+                  </p>
+                </div>
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-64x64">
+                      <img class="is-rounded" src="images/Fausto_Morales.jpeg" alt="Fausto Morales">
+                    </figure>
                   </div>
-                  <div class="media">
-                    <div class="media-left">
-                      <figure class="image is-64x64">
-                        <img class="is-rounded" src="images/Fausto_Morales.jpeg" alt="Fausto Morales">
-                      </figure>
-                    </div>
-                    <div class="media-content">
-                      <p class="title is-4">Fausto Morales</p>
-                      <p class="subtitle is-6">Consulting Software Engineer
+                  <div class="media-content">
+                    <p class="title is-4">Fausto Morales</p>
+                    <p class="subtitle is-6">Consulting Software Engineer
                       </br>
                       Former Director of Computer Vision at Thorn
-                      </p>
-                    </div>
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="columns is-centered is-vcentered">
-            <div class="column">
-              <div class="card has-background-white-ter">
-                <div class="card-content">
-                  <div class="content">
-                    <p class="subtitle">"Zefs Guide to Deep Learning provides a solid introduction and illustration of the fundamental concepts of ML and deep learning. <strong>As a visual learner and thinker, I really appreciate how the illustrations help build your intuition of each topic discussed.</strong>"</p>
+        <div class="columns is-centered is-vcentered">
+          <div class="column">
+            <div class="card has-background-white-ter">
+              <div class="card-content">
+                <div class="content">
+                  <p class="subtitle">"Zefs Guide to Deep Learning provides a solid introduction and illustration of the
+                    fundamental concepts of ML and deep learning. <strong>As a visual learner and thinker, I really
+                      appreciate how the illustrations help build your intuition of each topic discussed.</strong>"</p>
+                </div>
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-64x64">
+                      <img class="is-rounded" src="images/Jeremy_Jordan.jpeg" alt="Jeremy Jordan">
+                    </figure>
                   </div>
-                  <div class="media">
-                    <div class="media-left">
-                      <figure class="image is-64x64">
-                        <img class="is-rounded" src="images/Jeremy_Jordan.jpeg" alt="Jeremy Jordan">
-                      </figure>
-                    </div>
-                    <div class="media-content">
-                      <p class="title is-4">Jeremy Jordan</p>
-                      <p class="subtitle is-6">Senior Machine Learning Engineer
+                  <div class="media-content">
+                    <p class="title is-4">Jeremy Jordan</p>
+                    <p class="subtitle is-6">Senior Machine Learning Engineer
                       </br>
                       Duo</p>
-                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="column">
-              <div class="card has-background-white-ter">
-                <div class="card-content">
-                  <div class="content">
-                    <p class="subtitle">"If I was starting from scratch today <strong>this would be one of the first books I'd pick up</strong>. It has intuitive, high level explanations of the concepts behind deep learning (and machine learning in general), with enough depth to give you an idea of what you should dig into more to expand your understanding."</p>
+          </div>
+          <div class="column">
+            <div class="card has-background-white-ter">
+              <div class="card-content">
+                <div class="content">
+                  <p class="subtitle">"If I was starting from scratch today <strong>this would be one of the first books
+                      I'd pick up</strong>. It has intuitive, high level explanations of the concepts behind deep
+                    learning (and machine learning in general), with enough depth to give you an idea of what you should
+                    dig into more to expand your understanding."</p>
+                </div>
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-64x64">
+                      <img class="is-rounded" src="images/Binal_Patel.jpeg" alt="Binal Patel">
+                    </figure>
                   </div>
-                  <div class="media">
-                    <div class="media-left">
-                      <figure class="image is-64x64">
-                        <img class="is-rounded" src="images/Binal_Patel.jpeg" alt="Binal Patel">
-                      </figure>
-                    </div>
-                    <div class="media-content">
-                      <p class="title is-4">Binal Patel</p>
-                      <p class="subtitle is-6">Machine learning engineer</p>
-                    </div>
+                  <div class="media-content">
+                    <p class="title is-4">Binal Patel</p>
+                    <p class="subtitle is-6">Machine learning engineer</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="column">
-              <div class="card has-background-white-ter">
-                <div class="card-content">
-                  <div class="content">
-                    <p class="subtitle">"<strong>The flash cards are a real game changer.</strong> I've never been good reading a paragraph and remembering what I just read, but with pictures it makes it much easier."</p>
+          </div>
+          <div class="column">
+            <div class="card has-background-white-ter">
+              <div class="card-content">
+                <div class="content">
+                  <p class="subtitle">"<strong>The flash cards are a real game changer.</strong> I've never been good
+                    reading a paragraph and remembering what I just read, but with pictures it makes it much easier."
+                  </p>
+                </div>
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-64x64">
+                      <img class="is-rounded" src="images/Santi_Tellez.jpeg" alt="Santi Tellez">
+                    </figure>
                   </div>
-                  <div class="media">
-                    <div class="media-left">
-                      <figure class="image is-64x64">
-                        <img class="is-rounded" src="images/Santi_Tellez.jpeg" alt="Santi Tellez">
-                      </figure>
-                    </div>
-                    <div class="media-content">
-                      <p class="title is-4">Santi Tellez</p>
-                      <p class="subtitle is-6">ML Engineer
+                  <div class="media-content">
+                    <p class="title is-4">Santi Tellez</p>
+                    <p class="subtitle is-6">ML Engineer
                       </br>
                       NVIDIA
-                      </p>
-                    </div>
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="columns is-centered is-vcentered">
-            <div class="column">
-              <div class="card has-background-white-ter">
-                <div class="card-content">
-                  <div class="content">
-                    <p class="subtitle">"<strong>Whether you are a beginner, wanting to learn about deep learning or a mid-career professional who wants to brush your knowledge, this is a perfect guide</strong>. I specifically enjoyed the high-level introduction along with the visuals to reinforce some deep learning concepts. Computer vision and NLP are two areas where deep learning is making some serious dents and this guide can get you up to speed with the latest developments."</p>
+        <div class="columns is-centered is-vcentered">
+          <div class="column">
+            <div class="card has-background-white-ter">
+              <div class="card-content">
+                <div class="content">
+                  <p class="subtitle">"<strong>Whether you are a beginner, wanting to learn about deep learning or a
+                      mid-career professional who wants to brush your knowledge, this is a perfect guide</strong>. I
+                    specifically enjoyed the high-level introduction along with the visuals to reinforce some deep
+                    learning concepts. Computer vision and NLP are two areas where deep learning is making some serious
+                    dents and this guide can get you up to speed with the latest developments."</p>
+                </div>
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-64x64">
+                      <img class="is-rounded" src="images/Pushkar_Jain.jpg" alt="Pushkar Kumar Jain">
+                    </figure>
                   </div>
-                  <div class="media">
-                    <div class="media-left">
-                      <figure class="image is-64x64">
-                        <img class="is-rounded" src="images/Pushkar_Jain.jpg" alt="Pushkar Kumar Jain">
-                      </figure>
-                    </div>
-                    <div class="media-content">
-                      <p class="title is-4">Pushkar Kumar Jain</p>
-                      <p class="subtitle is-6">Sr. ML Engineer
+                  <div class="media-content">
+                    <p class="title is-4">Pushkar Kumar Jain</p>
+                    <p class="subtitle is-6">Sr. ML Engineer
                       </br>
                       Hyperscience
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="column">
-              <div class="card has-background-white-ter">
-                <div class="card-content">
-                  <div class="content">
-                    <p class="subtitle">"If you are looking for <strong>a non-hyped, conceptual-but-also-technical introduction of deep learning</strong>, Roy Keyes is pretty good at it."</p>
-                  </div>
-                  <div class="media">
-                    <div class="media-left">
-                      <figure class="image is-64x64">
-                        <img class="is-rounded" src="images/Tailai_Wen.jpeg" alt="Tailai Wen">
-                      </figure>
-                    </div>
-                    <div class="media-content">
-                      <p class="title is-4">Tailai Wen</p>
-                      <p class="subtitle is-6">Director of Data Science
-                      </br>
-                      Season</p>
-                    </div>
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
-        </section>
-        
-        <a id="summary"></a>
-        <section class="section">
-          <div class="columns is-centered">
-            <div class="column">
-              <div class="content is-large">
-                <p><strong>Deep learning</strong> algorithms power the most exciting and useful technologies today: internet search, image generation, music recommendations, and many more.</p>
-                <p><strong>Zefs Guides</strong> is a series of short and concise books and flashcard sets designed to help you quickly understand the most important ideas behind deep learning, whether you're a job seeker, student, working engineer, or executive.</p>
+          <div class="column">
+            <div class="card has-background-white-ter">
+              <div class="card-content">
+                <div class="content">
+                  <p class="subtitle">"If you are looking for <strong>a non-hyped, conceptual-but-also-technical
+                      introduction of deep learning</strong>, Roy Keyes is pretty good at it."</p>
+                </div>
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-64x64">
+                      <img class="is-rounded" src="images/Tailai_Wen.jpeg" alt="Tailai Wen">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">Tailai Wen</p>
+                    <p class="subtitle is-6">Director of Data Science
+                      </br>
+                      Season</p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="column">
-              <div class="columns">
-                <div class="column is-10 is-offset-1">
-                  <div class="card has-background-white-ter">
-                    <div class="card-content">
-                      <div class="content is-large">
-                        <p class="subtitle">"<strong>I love this book.</strong> It's full of very succinct and clean explanations of a lot of complex topics. This will be great for beginners, but also anyone who needs to review deep learning."</p>
+          </div>
+        </div>
+
+      </section>
+
+      <a id="summary"></a>
+      <section class="section">
+        <div class="columns is-centered">
+          <div class="column">
+            <div class="content is-large">
+              <p><strong>Deep learning</strong> algorithms power the most exciting and useful technologies today:
+                internet search, image generation, music recommendations, and many more.</p>
+              <p><strong>Zefs Guides</strong> is a series of short and concise books and flashcard sets designed to help
+                you quickly understand the most important ideas behind deep learning, whether you're a job seeker,
+                student, working engineer, or executive.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="columns">
+              <div class="column is-10 is-offset-1">
+                <div class="card has-background-white-ter">
+                  <div class="card-content">
+                    <div class="content is-large">
+                      <p class="subtitle">"<strong>I love this book.</strong> It's full of very succinct and clean
+                        explanations of a lot of complex topics. This will be great for beginners, but also anyone who
+                        needs to review deep learning."</p>
+                    </div>
+                    <div class="media">
+                      <div class="media-left">
+                        <figure class="image is-64x64">
+                          <img class="is-rounded" src="images/Ravi_Mody.jpg" alt="Ravi Mody">
+                        </figure>
                       </div>
-                      <div class="media">
-                        <div class="media-left">
-                          <figure class="image is-64x64">
-                            <img class="is-rounded" src="images/Ravi_Mody.jpg" alt="Ravi Mody">
-                          </figure>
-                        </div>
-                        <div class="media-content">
-                          <p class="title is-4">Ravi Mody</p>
-                          <p class="subtitle is-6">ML Manager
+                      <div class="media-content">
+                        <p class="title is-4">Ravi Mody</p>
+                        <p class="subtitle is-6">ML Manager
                           </br>
                           Spotify
-                          </p>
-                        </div>
+                        </p>
                       </div>
                     </div>
                   </div>
-                  <!-- <div class="content is-large">
+                </div>
+                <!-- <div class="content is-large">
                     <div class="box has-background-white-ter">
                       <p>"I love this book. It's full of very succinct and clean explanations of a lot of complex topics.
                       This will be great for beginners, but also anyone who needs to review deep learning."</p>
@@ -452,237 +502,277 @@
                         <br><strong>Spotify</strong>
                     </div>
                   </div> -->
-                </div>
-              </div>
-              
-            </div>
-          </div>
-          <div class="columns is-centered">
-            <div class="column is-half content is-large">
-              <p><strong>Sign up</strong> to get the latest info about Zefs Guides or follow the project on social media</p>
-            </div>
-            <div class="column">
-                <div class="columns is-vcentered">
-                  <div class="column is-10 is-offset-1">
-                    <form method="post" action="https://formspree.io/f/mknyrnyw">
-                      <div class="field has-addons has-margin-top-30">
-                        <div class="control">
-                          <a id="email"></a>
-                          <input class="input is-medium" type="email" name="email" placeholder="Your email">
-                        </div>
-                        <div class="control">
-                          <button type="submit" class="button is-primary is-medium">
-                            Get updates
-                          </button>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              <div class="columns is-vcentered">
-                <div class="column is-10 is-offset-1 has-text-centered">
-                  <a href="mailto:info@zefsguides.com" class="button is-primary is-rounded m-1"><span class="icon"><i class="fas fa-envelope"></i></span></a>
-                  <a href="https://twitter.com/ZefsGuides" class="button is-link is-rounded m-1"><span class="icon"><i class="fab fa-twitter"></i></span></a>
-                  <a href="https://www.linkedin.com/company/zefs-guides/" class="button is-success is-rounded m-1"><span class="icon"><i class="fab fa-linkedin"></i></span></a>
-                </div>
               </div>
             </div>
-          </div>
-        </section>
 
-        <a id="series"></a>
-        <div class="container"></div>
-          <div class="columns is-centered">
-            <div class="column has-text-centered">
-              <div class="content is-large">
-                <h1>The Zefs Guides series</h1>
-              </div>
-            </div>
           </div>
-          <div class="columns is-centered">
-            <div class="column">
-              <figure class="image is-4by5">
-                <img src="images/zgdl_cover_ea_4x5.png" alt="Zefs Guide to Deep Learning">
-              </figure>
-              <br>
-              <div class="dropdown is-centered">
-                <div class="dropdown-trigger">
-                  <button class="button is-primary is-large is-responsive" aria-haspopup="true" aria-controls="dropdown-menu">
-                      <span><strong>Get Early Access Now</strong></span>
-                      <span class="icon is-small">
-                      <i class="fas fa-angle-down" aria-hidden="true"></i>
-                      </span>
-                  </button>
-                </div>
-                <div class="dropdown-menu" id="dropdown-menu" role="menu">
-                    <div class="dropdown-content">
-                      <a href="https://leanpub.com/b/zefsguide2dl" class="dropdown-item"><strong>The ebook + flashcards: $20+</strong></a>
-                      <a href="https://leanpub.com/zefsguide2dl" class="dropdown-item"><strong>Just the ebook: $12.50+</strong></a>
-                      <a href="https://leanpub.com/zg2dlflashcards/" class="dropdown-item"><strong>Just the flashcards: $10+</strong></a>
+        </div>
+        <div class="columns is-centered">
+          <div class="column is-half content is-large">
+            <p><strong>Sign up</strong> to get the latest info about Zefs Guides or follow the project on social media
+            </p>
+          </div>
+          <div class="column">
+            <div class="columns is-vcentered">
+              <div class="column is-10 is-offset-1">
+                <form method="post" action="https://formspree.io/f/mknyrnyw">
+                  <div class="field has-addons has-margin-top-30">
+                    <div class="control">
+                      <a id="email"></a>
+                      <input class="input is-medium" type="email" name="email" placeholder="Your email">
                     </div>
-                </div>
-              </div>
-              <div class="buttons is-centered">
-                <a href="https://leanpub.com/zefsguide2dl/read_sample" class="button is-primary is-light">Read sample chapters</a>
-              </div>
-            </div>
-            <div class="column">
-                <figure class="image is-4by5">
-                  <img src="images/zgcv_cover_4x5.png" alt="Zefs Guide to Computer Vision">
-                </figure>
-                <div class="has-text-centered">
-                  <p>Coming mid-2023</p>
-                </div>
-            </div>
-            <div class="column">
-              <figure class="image is-4by5">
-                <img src="images/zgnlp_cover_4x5.png" alt="Zefs Guide to Natural Language Processing">
-              </figure>
-              <div class="has-text-centered">
-                <p>Coming late 2023</p>
-              </div>
-            </div>
-            <div class="column">
-              <figure class="image is-4by5">
-                <img src="images/zgtrans_cover_4x5.png" alt="Zefs Guide to Transformers">
-              </figure>
-              <div class="has-text-centered">
-                <p>Coming late 2023</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <a id="flashcards"></a>
-        <div class="container" style="padding-bottom: 30px;">
-          <div class="columns is-centered">
-            <div class="column has-text-centered">
-              <div class="content is-large">
-                <h1>Example Flashcards</h1>
-              </div>
-            </div>
-          </div>
-          <div class="columns is-centered">
-            <div class="column is-5 is-two-thirds-tablet">
-              <div class="card">
-                <div class="card-image">
-                  <figure class="image is-4by3">
-                    <img src="images/zefs_guides_bias_variance.png" alt="Bias and variance in machine learning models">
-                  </figure>
-                </div>
-              </div>
-            </div>
-            <div class="column is-5">
-              <div class="card">
-                <div class="card-image">
-                  <figure class="image is-4by3">
-                    <img src="images/zefs_guides_feature_warping.png" alt="Neural networks warp feature space">
-                  </figure>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="columns is-centered">
-            <div class="column is-5 is-two-thirds-tablet">
-              <div class="card">
-                <div class="card-image">
-                  <figure class="image is-4by3">
-                    <img src="images/zefs_guides_gradient_descent.png" alt="Gradient descent">
-                  </figure>
-                </div>
-              </div>
-            </div>
-            <div class="column is-5">
-              <div class="card">
-                <div class="card-image">
-                  <figure class="image is-4by3">
-                    <img src="images/zefs_guides_loss_functions.png" alt="Loss functions">
-                  </figure>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </section>
-
-    <section class="m-5">
-      <div class="container">
-        <a id="about"></a>
-        <section class="section is-medium">
-          <div class="content is-medium">
-            <h1>What are Zefs Guides?</h1>
-            <p><strong>Zefs Guides</strong> are concise books and learning materials about machine learning and data science related topics. They are designed to help you quickly learn and review the core concepts behind machine learning and data science.</p>
-            <p>The first Zefs Guides project is a four book series about <strong>Deep Learning</strong>, which will be available in <strong>paperback</strong> and <strong>ebook</strong> formats. There will also be separately sold digital <strong>flashcards</strong> to accompany each book. The ebooks and flashcards come with a 60 day money back guarantee, so you can get your money back if you're unhappy with them.</p>
-            <h1>Who should read Zefs Guides?</h1>
-            <p>Zefs Guides are for anyone wanting to have a stronger understanding of machine learning and data science topics. They focus primarily on the concepts themselves and less on the math or programming aspects. They are focused on understanding the most important concepts.</p>
-            <p>People who will most benefit include</p>
-            <ul>
-              <li>Job seekers wanting to do well on technical interviews</li>
-              <li>Students wanting to do better in class</li>
-              <li>Working ML and DS people wanting gain or refresh knowledge</li>
-              <li>Leaders wanting a stronger understanding of current technologies</li>
-            </ul>
-            <h1>The first series: Deep Learning</h1>
-            <p>The first Zefs Guides project is a four book series about <strong>Deep Learning</strong>, which will cover the basics of deep learning and specific topics in the the other three books:</p>
-            <ul>
-              <li><strong>Zefs Guide to Deep Learning</strong></li>
-              <li><strong>Zefs Guide to Computer Vision</strong></li>
-              <li><strong>Zefs Guide to Natural Language Processing</strong></li>
-              <li><strong>Zefs Guide to Transformers</strong></li>
-            </ul>
-            <p>They will be available in <strong>paperback</strong> and <strong>ebook</strong> formats. There will also be sold-separately digital <strong>flashcards</strong> in Anki and other formats, which accompany each book.</p>
-            <h1>How do I get Zefs Guides?</h1>
-            <p>Zefs Guides are being created now with the first book, Zefs Guide to Deep Learning, slated for final release in Novemeber 2022, is currently available as an <a href="https://leanpub.com/b/zefsguide2dl">Early Access pre-release</a>.</p>
-            <p>For now you can sign up above for <a href="#email">email updates <span class="icon"><i class="fas fa-envelope"></i></span></a> (occasional updates and zero spam) or follow along on <a href="https://twitter.com/zefsguides">Twitter <span class="icon"><i class="fab fa-twitter"></i></span></a> or <a href="https://www.linkedin.com/company/zefs-guides">LinkedIn <span class="icon"><i class="fab fa-linkedin"></i></span></a> for updates, other learning resources, and real-time progress.</p>
-            <h1>What is Early Access?</h1>
-            <p>The ebook and flashcards will be made available for purchase before they are finished. Readers can get exclusive access to the book and flashcards while they are still in progress and will get the final versions when they're released as well. Purchasing the Early Access versions is a great way to get them at a lower price, support their creation, and provide feedback to me, so that I can make them the best they can be.</p>
-            <p>Early Access supporters who submit feedback will get their names in the supporter section of the final versions of the electronic and paperback books.</p>
-            <p><strong>Early Access is available <em>now</em> for the first book in the series, Zefs Guide to Deep Learning.</strong></p>
-            <div class="dropdown">
-              <div class="dropdown-trigger">
-              <button class="button is-primary is-large" aria-haspopup="true" aria-controls="dropdown-menu">
-                  <span><strong>Get Early Access Now</strong></span>
-                  <span class="icon is-small">
-                  <i class="fas fa-angle-down" aria-hidden="true"></i>
-                  </span>
-              </button>
-              </div>
-              <div class="dropdown-menu" id="dropdown-menu" role="menu">
-                  <div class="dropdown-content">
-                  <a href="https://leanpub.com/b/zefsguide2dl" class="dropdown-item"><strong>The ebook + flashcards: $20+</strong></a>
-                  <a href="https://leanpub.com/zefsguide2dl" class="dropdown-item"><strong>Just the ebook: $12.50+</strong></a>
-                  <a href="https://leanpub.com/zg2dlflashcards/" class="dropdown-item"><strong>Just the flashcards: $10+</strong></a>
+                    <div class="control">
+                      <button type="submit" class="button is-primary is-medium">
+                        Get updates
+                      </button>
+                    </div>
                   </div>
+                </form>
+              </div>
+            </div>
+            <div class="columns is-vcentered">
+              <div class="column is-10 is-offset-1 has-text-centered">
+                <a href="mailto:info@zefsguides.com" class="button is-primary is-rounded m-1"><span class="icon"><i
+                      class="fas fa-envelope"></i></span></a>
+                <a href="https://twitter.com/ZefsGuides" class="button is-link is-rounded m-1"><span class="icon"><i
+                      class="fab fa-twitter"></i></span></a>
+                <a href="https://www.linkedin.com/company/zefs-guides/" class="button is-success is-rounded m-1"><span
+                    class="icon"><i class="fab fa-linkedin"></i></span></a>
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <a id="author"></a>
-        <section class="section is-medium">
-          <article class="message is-info is-medium m-5">
-            <div class="message-header">
-              <p>About the author</p>
-            </div>
-            <div class="message-body">
-              <p><strong>Roy Keyes</strong> is a machine learning and data science manager with over ten years of experience. He has built and led teams at multiple tech startups and consulted for clients across a wide range of industries. Prior to data science, he received a PhD in computational physics, focusing on medical applications.</p>
-              <br>
-              <p>His first book was <a href="https://dshiring.com">Hiring Data Scientists and Machine Learning Engineers</a>, a practical guide to hiring data roles. Currently available in paperback and ebook.</p>
-              <br>
-              <p>You can find his website and blog at <a href="https://roycoding.com">roycoding.com</a> and follow him on Twitter at <a href="https://twitter.com/roycoding">@roycoding</a>.</p>
-            </div>
-          </article>
-        </section>
+      <a id="series"></a>
+      <div class="container"></div>
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <div class="content is-large">
+            <h1>The Zefs Guides series</h1>
+          </div>
+        </div>
       </div>
-    </section>
-    <footer class="footer">
-      <div class="content has-text-centered">
-        <img src="./images/zg_dog1d.png" width="50px">
-        <p>
-          Copyright © 2022, <a href="https://roycoding.com">Roy Keyes</a>
-        </p>
+      <div class="columns is-centered">
+        <div class="column">
+          <figure class="image is-4by5">
+            <img src="images/zgdl_cover_ea_4x5.png" alt="Zefs Guide to Deep Learning">
+          </figure>
+          <br>
+          <div class="dropdown is-centered">
+            <div class="dropdown-trigger">
+              <button class="button is-primary is-large is-responsive" aria-haspopup="true"
+                aria-controls="dropdown-menu">
+                <span><strong>Get Early Access Now</strong></span>
+                <span class="icon is-small">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+              </button>
+            </div>
+            <div class="dropdown-menu" id="dropdown-menu" role="menu">
+              <div class="dropdown-content">
+                <a href="https://leanpub.com/b/zefsguide2dl" class="dropdown-item"><strong>The ebook + flashcards:
+                    $20+</strong></a>
+                <a href="https://leanpub.com/zefsguide2dl" class="dropdown-item"><strong>Just the ebook:
+                    $12.50+</strong></a>
+                <a href="https://leanpub.com/zg2dlflashcards/" class="dropdown-item"><strong>Just the flashcards:
+                    $10+</strong></a>
+              </div>
+            </div>
+          </div>
+          <div class="buttons is-centered">
+            <a href="https://leanpub.com/zefsguide2dl/read_sample" class="button is-primary is-light">Read sample
+              chapters</a>
+          </div>
+        </div>
+        <div class="column">
+          <figure class="image is-4by5">
+            <img src="images/zgcv_cover_4x5.png" alt="Zefs Guide to Computer Vision">
+          </figure>
+          <div class="has-text-centered">
+            <p>Coming mid-2023</p>
+          </div>
+        </div>
+        <div class="column">
+          <figure class="image is-4by5">
+            <img src="images/zgnlp_cover_4x5.png" alt="Zefs Guide to Natural Language Processing">
+          </figure>
+          <div class="has-text-centered">
+            <p>Coming late 2023</p>
+          </div>
+        </div>
+        <div class="column">
+          <figure class="image is-4by5">
+            <img src="images/zgtrans_cover_4x5.png" alt="Zefs Guide to Transformers">
+          </figure>
+          <div class="has-text-centered">
+            <p>Coming late 2023</p>
+          </div>
+        </div>
       </div>
-    </footer>
-    <script src="bulma-0.9.3/bulma/js/main.v202109192337.js"></script>
-  </body>
+    </div>
+
+    <a id="flashcards"></a>
+    <div class="container" style="padding-bottom: 30px;">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <div class="content is-large">
+            <h1>Example Flashcards</h1>
+          </div>
+        </div>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-5 is-two-thirds-tablet">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/zefs_guides_bias_variance.png" alt="Bias and variance in machine learning models">
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="column is-5">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/zefs_guides_feature_warping.png" alt="Neural networks warp feature space">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-5 is-two-thirds-tablet">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/zefs_guides_gradient_descent.png" alt="Gradient descent">
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="column is-5">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/zefs_guides_loss_functions.png" alt="Loss functions">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="m-5">
+    <div class="container">
+      <a id="about"></a>
+      <section class="section is-medium">
+        <div class="content is-medium">
+          <h1>What are Zefs Guides?</h1>
+          <p><strong>Zefs Guides</strong> are concise books and learning materials about machine learning and data
+            science related topics. They are designed to help you quickly learn and review the core concepts behind
+            machine learning and data science.</p>
+          <p>The first Zefs Guides project is a four book series about <strong>Deep Learning</strong>, which will be
+            available in <strong>paperback</strong> and <strong>ebook</strong> formats. There will also be separately
+            sold digital <strong>flashcards</strong> to accompany each book. The ebooks and flashcards come with a 60
+            day money back guarantee, so you can get your money back if you're unhappy with them.</p>
+          <h1>Who should read Zefs Guides?</h1>
+          <p>Zefs Guides are for anyone wanting to have a stronger understanding of machine learning and data science
+            topics. They focus primarily on the concepts themselves and less on the math or programming aspects. They
+            are focused on understanding the most important concepts.</p>
+          <p>People who will most benefit include</p>
+          <ul>
+            <li>Job seekers wanting to do well on technical interviews</li>
+            <li>Students wanting to do better in class</li>
+            <li>Working ML and DS people wanting gain or refresh knowledge</li>
+            <li>Leaders wanting a stronger understanding of current technologies</li>
+          </ul>
+          <h1>The first series: Deep Learning</h1>
+          <p>The first Zefs Guides project is a four book series about <strong>Deep Learning</strong>, which will cover
+            the basics of deep learning and specific topics in the the other three books:</p>
+          <ul>
+            <li><strong>Zefs Guide to Deep Learning</strong></li>
+            <li><strong>Zefs Guide to Computer Vision</strong></li>
+            <li><strong>Zefs Guide to Natural Language Processing</strong></li>
+            <li><strong>Zefs Guide to Transformers</strong></li>
+          </ul>
+          <p>They will be available in <strong>paperback</strong> and <strong>ebook</strong> formats. There will also be
+            sold-separately digital <strong>flashcards</strong> in Anki and other formats, which accompany each book.
+          </p>
+          <h1>How do I get Zefs Guides?</h1>
+          <p>Zefs Guides are being created now with the first book, Zefs Guide to Deep Learning, slated for final
+            release in Novemeber 2022, is currently available as an <a href="https://leanpub.com/b/zefsguide2dl">Early
+              Access pre-release</a>.</p>
+          <p>For now you can sign up above for <a href="#email">email updates <span class="icon"><i
+                  class="fas fa-envelope"></i></span></a> (occasional updates and zero spam) or follow along on <a
+              href="https://twitter.com/zefsguides">Twitter <span class="icon"><i class="fab fa-twitter"></i></span></a>
+            or <a href="https://www.linkedin.com/company/zefs-guides">LinkedIn <span class="icon"><i
+                  class="fab fa-linkedin"></i></span></a> for updates, other learning resources, and real-time progress.
+          </p>
+          <h1>What is Early Access?</h1>
+          <p>The ebook and flashcards will be made available for purchase before they are finished. Readers can get
+            exclusive access to the book and flashcards while they are still in progress and will get the final versions
+            when they're released as well. Purchasing the Early Access versions is a great way to get them at a lower
+            price, support their creation, and provide feedback to me, so that I can make them the best they can be.</p>
+          <p>Early Access supporters who submit feedback will get their names in the supporter section of the final
+            versions of the electronic and paperback books.</p>
+          <p><strong>Early Access is available <em>now</em> for the first book in the series, Zefs Guide to Deep
+              Learning.</strong></p>
+          <div class="dropdown">
+            <div class="dropdown-trigger">
+              <button class="button is-primary is-large" aria-haspopup="true" aria-controls="dropdown-menu">
+                <span><strong>Get Early Access Now</strong></span>
+                <span class="icon is-small">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+              </button>
+            </div>
+            <div class="dropdown-menu" id="dropdown-menu" role="menu">
+              <div class="dropdown-content">
+                <a href="https://leanpub.com/b/zefsguide2dl" class="dropdown-item"><strong>The ebook + flashcards:
+                    $20+</strong></a>
+                <a href="https://leanpub.com/zefsguide2dl" class="dropdown-item"><strong>Just the ebook:
+                    $12.50+</strong></a>
+                <a href="https://leanpub.com/zg2dlflashcards/" class="dropdown-item"><strong>Just the flashcards:
+                    $10+</strong></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <a id="author"></a>
+      <section class="section is-medium">
+        <article class="message is-info is-medium m-5">
+          <div class="message-header">
+            <p>About the author</p>
+          </div>
+          <div class="message-body">
+            <p><strong>Roy Keyes</strong> is a machine learning and data science manager with over ten years of
+              experience. He has built and led teams at multiple tech startups and consulted for clients across a wide
+              range of industries. Prior to data science, he received a PhD in computational physics, focusing on
+              medical applications.</p>
+            <br>
+            <p>His first book was <a href="https://dshiring.com">Hiring Data Scientists and Machine Learning
+                Engineers</a>, a practical guide to hiring data roles. Currently available in paperback and ebook.</p>
+            <br>
+            <p>You can find his website and blog at <a href="https://roycoding.com">roycoding.com</a> and follow him on
+              Twitter at <a href="https://twitter.com/roycoding">@roycoding</a>.</p>
+          </div>
+        </article>
+      </section>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <img src="./images/zg_dog1d.png" width="50px">
+      <p>
+        Copyright © 2022, <a href="https://roycoding.com">Roy Keyes</a>
+      </p>
+    </div>
+  </footer>
+  <script src="bulma-0.9.3/bulma/js/main.v202109192337.js"></script>
+</body>
+
 </html>
